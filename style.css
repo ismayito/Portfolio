@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #3c3a39;
+  height: 92px;
+}
+
+.logo {
+  color: #fff;
+  text-decoration: none;
+  margin-top: 56px;
+  margin-left: 24px;
+  margin-bottom: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.fa-bars {
+  color: #fff;
+  margin-top: 56px;
+  margin-bottom: 12px;
+  margin-right: 24px;
+}
+
+.headline-section {
+  background: #1c1a19;
+  height: 590px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./Assets/images/Group1.png");
+  background-repeat: no-repeat;
+  background-position: bottom -45px right;
+}
+
+.heading {
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  color: #ff6b00;
+  font-family: 'Crete Round', serif;
+  letter-spacing: 0.37px;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.introduction-article {
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 24px;
+}
+
+.subheading {
+  font-weight: 700;
+  margin-top: 12px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff5e1;
+  font-family: 'Roboto', sans-serif;
+}
+
+.intro {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-top: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.socials {
+  display: flex;
+  color: #fff;
+  margin-left: 15.1px;
+  margin-top: 12px;
+}
+
+.socials li {
+  list-style-type: none;
+  padding-left: 21px;
+}
