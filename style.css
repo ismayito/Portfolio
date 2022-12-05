@@ -132,13 +132,15 @@
 }
 
 .lang-btn {
-  display: flex;
+  /* display: flex; */
+  float: left;
   margin-top: 18px;
   gap: 12px;
 }
 
 .lang-btn li {
   text-decoration: none;
+  display: inline-block;
   list-style-type: none;
   font-weight: 500;
   font-size: 15px;
