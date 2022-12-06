@@ -327,6 +327,7 @@
   flex-direction: column;
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 40px;
 }
 
 .form-heading {
@@ -341,5 +342,31 @@ color: #172b4d;
 }
 
 .form-inputs {
-  
+  display: flex;
+  flex-direction: column;
+  margin-top: 73px;
+}
+
+.input {
+   margin-right: 16px;
+   margin-left: 16px;
+   border: none;
+   border-bottom: 1px solid #DBD8D7;
+
+   font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 24px;
+padding: 16px;
+}
+
+textarea{
+  margin-top: 24px;
+  margin-right: 16px;
+   margin-left: 16px;
+   height: 114px;
+   padding: 12px;
+   background-color: #FBF8F7;
+   border: none;
 }
