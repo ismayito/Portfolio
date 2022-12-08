@@ -15,19 +15,28 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
+    <div class="container">
     <header class="navbar">
-        <a class="logo" href="#" alt="home">Mayito Ismail</a>
+        <a class="logo name" href="#" alt="home">Mayito Ismail</a>
         <nav>
             <i class="fa-solid fa-bars"></i>
+            <ul class="nav-links">
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#"><i class="fa-sharp fa-solid fa-envelope"></i></a></li>
+            </ul>
         </nav>
     </header>
-    <section class="headline-section">
-        <h1 class="heading"> Hey There.<br>I’m Ismail</h1>
+    <section class="headline-section header-img-web  header-section ">
+        <div class="article-group-web">
+        <h1 class="heading heading-desk"> Hey There.<br>I’m Ismail</h1>
         <article class="introduction-article">
-            <p class="subheading">I’am a Software Developer</p>
-            <p class="intro">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
+            <p class="subheading sub-heading">I’am a Software Developer</p>
+            <p class="intro introduction">I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
                 don’t hestiate to contact me.</p>
         </article>
+       </div>
         <ul class="socials">
             <li><a href="#" alt="github"><img src='Assets/images/git.svg' alt="github"/></a></li>
             <li><a href="#" alt="linkedin"><img src='Assets/images/Group.png' alt="likedin"/></a></li>
@@ -37,9 +46,14 @@
         </ul>
     </section>
     <section class="works-section">
+        <div class="work-div-head-web">
         <h2 class="work-heading">My Recent Works</h2>
-        <section class="post">
-            <img src="Assets//images/post.svg" alt="post image"/>
+        <img src="Assets//images/lin1-web.svg" alt="img" id="image" class="img-line-web"/>
+        </div>
+        <div class="post">
+            <img src="Assets//images/post.svg" id="img-recent"  alt="post image"/>
+            <img src="Assets//images/recent-work web.svg" class="img-web-recent"  id="img-work" alt="post image"/>
+            <div class="article-section">
             <article class="article">
                 <h3 class="post-heading">Multi-Post Stories</h3>
                 <p class="post-info">A daily selection of privately personalized reads;
@@ -52,9 +66,22 @@
                 <li>Ruby</li>
             </ul>
             <button class="see-btn">See Project</button>
-        </section>
+        </div>
+    </div>
     </section>
-    <div class="projects">
+    <div class="projects-web">
+    <div class="projects project-one">
+        <h4 class="printing printing-web">Profesional Art Printing Data</h4>
+            <p class="print-info print-info-web">A daily selection of privately personalized reads; 
+                no accounts or sign-ups required. has been the industry's standard</p>
+        <ul class="lang-project lang-project-web">
+            <li><a href="#" alt="html">html</a></li>
+            <li><a href="#" alt="bootstrap">bootstrap</a></li>
+            <li><a href="#" alt="ruby">Ruby</a></li>
+        </ul>
+        <button class="see-btn see-btn-web ">See Project</button>
+    </div>
+    <div class="projects " id="project2-mobile">
         <h4 class="printing">Profesional Art Printing Data</h4>
             <p class="print-info">A daily selection of privately personalized reads; 
                 no accounts or sign-ups required. has been the industry's standard</p>
@@ -65,7 +92,27 @@
         </ul>
         <button class="see-btn ">See Project</button>
     </div>
-    <div class="projects">
+    <div class="project2">
+        <h4 class="proj2-web-head">Data Dashboard <br>Healthcare</h4>
+            <p class="print-web-info">A daily selection of privately personalized reads; 
+                no accounts or sign-ups required. has been the industry's standard</p>
+        <ul class="lang-project lang-1">
+            <li><a href="#" alt="html">html</a></li>
+            <li><a href="#" alt="bootstrap">bootstrap</a></li>
+            <li><a href="#" alt="ruby">Ruby</a></li>
+        </ul>
+    </div>
+    <div class="project3">
+        <h4 class="proj2-web-head  proj3-web-head">Website Protfolio </h4>
+            <p class="print-web-info">A daily selection of privately personalized reads; 
+                no accounts or sign-ups required. has been the industry's standard</p>
+        <ul class="lang-project lang-1">
+            <li><a href="#" alt="html">html</a></li>
+            <li><a href="#" alt="bootstrap">bootstrap</a></li>
+            <li><a href="#" alt="ruby">Ruby</a></li>
+        </ul>
+    </div>
+    <div class="projects" id="project3-mobile">
         <h4 class="printing">Profesional Art Printing Data</h4>
             <p class="print-info">A daily selection of privately personalized reads; 
                 no accounts or sign-ups required. has been the industry's standard</p>
@@ -76,7 +123,7 @@
         </ul>
         <button class="see-btn ">See Project</button>
     </div>
-    <div class="projects">
+    <div class="projects" id="project4-mob">
         <h4 class="printing">Profesional Art Printing Data</h4>
             <p class="print-info">A daily selection of privately personalized reads; 
                 no accounts or sign-ups required. has been the industry's standard</p>
@@ -87,7 +134,18 @@
         </ul>
         <button class="see-btn ">See Project</button>
     </div>
-    <div class="projects">
+    <div class="projects project4-web">
+        <h4 class="printing">Profesional Art<br> Printing Data More</h4>
+            <p class="print-info">A daily selection of privately personalized reads; 
+                no accounts or sign-ups required. has been the industry's standard</p>
+        <ul class="lang-project">
+            <li><a href="#" alt="html">html</a></li>
+            <li><a href="#" alt="bootstrap">bootstrap</a></li>
+            <li><a href="#" alt="ruby">Ruby</a></li>
+        </ul>
+        <button class="see-btn ">See Project</button>
+    </div>
+    <div class="projects" id="project5-mobile">
         <h4 class="printing">Profesional Art Printing Data</h4>
             <p class="print-info">A daily selection of privately personalized reads; 
                 no accounts or sign-ups required. has been the industry's standard</p>
@@ -98,7 +156,17 @@
         </ul>
         <button class="see-btn ">See Project</button>
     </div>
-    <div class="projects">
+    <div class="project2">
+        <h4 class="proj2-web-head">Data Dashboard <br>Healthcare</h4>
+            <p class="print-web-info">A daily selection of privately personalized reads; 
+                no accounts or sign-ups required. has been the industry's standard</p>
+        <ul class="lang-project lang-1">
+            <li><a href="#" alt="html">html</a></li>
+            <li><a href="#" alt="bootstrap">bootstrap</a></li>
+            <li><a href="#" alt="ruby">Ruby</a></li>
+        </ul>
+    </div>
+    <div class="projects" id="project6-mob">
         <h4 class="printing">Profesional Art Printing Data</h4>
             <p class="print-info">A daily selection of privately personalized reads; 
                 no accounts or sign-ups required. has been the industry's standard</p>
@@ -109,25 +177,31 @@
         </ul>
         <button class="see-btn ">See Project</button>
     </div>
-    <div class="projects">
-        <h4 class="printing">Profesional Art Printing Data</h4>
-            <p class="print-info">A daily selection of privately personalized reads; 
+    <div class="project3">
+        <h4 class="proj2-web-head  proj3-web-head">Website Protfolio </h4>
+            <p class="print-web-info">A daily selection of privately personalized reads; 
                 no accounts or sign-ups required. has been the industry's standard</p>
-        <ul class="lang-project">
+        <ul class="lang-project lang-1">
             <li><a href="#" alt="html">html</a></li>
             <li><a href="#" alt="bootstrap">bootstrap</a></li>
             <li><a href="#" alt="ruby">Ruby</a></li>
         </ul>
-        <button class="see-btn ">See Project</button>
     </div>
+</div>
     <section class="about-me">
+    <div class="about-me-web-intro">
+    <div class="about-me1">
+        <div>
         <h5 class="about-heading">About Me</h5>
         <p class="about-info"> Hello I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! 
             If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        <section class="about-section">
+        </div>
+        <div class="about-section">
             <buton class="see-btn resume">Get My Resume</buton>
-        </section>
-        <section class="line-resume"></section>
+        </div>
+    </div>
+    </div>  
+    <section class="line-resume"></section>  
         <section class="skills-resume">
             <ul class="skills">
                 <li><span><img class="img-skills" src="./Assets/images/rect1.svg" alt=""/>Languages</span>
@@ -161,8 +235,8 @@
     </section>
     <footer>
     <section class="form">
-        <h5 class="form-heading">I'm always<br>interested in hearing about new projects,
-         so if you'd like to chat please get in touch.</h5>
+        <p class="form-heading">I'm always<br>interested in hearing about new projects,
+         so if you'd like to chat please get in touch.</p>
         <form  class="form-inputs" action="https://formspree.io/f/xeqdvepo" method="post">
         <input class="input" type="text" maxlength="30" placeholder="Enter full name" required>
         <input  class="input" type="email" placeholder="Enter Email" required>
@@ -180,5 +254,6 @@
         </ul>
         <img class="footer-img" src="assets/images/Shape.svg" alt="img"/>
     </footer>
+</div>
 </body>
 </html>
